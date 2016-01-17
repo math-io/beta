@@ -1,13 +1,9 @@
 'use strict';
 
-var linspace = require( 'compute-linspace' );
-var gamma = require( './../lib' );
+var beta = require( './../lib' );
 
-var x = beta( -10, 10, 100 );
-var v;
-var i;
-
-for ( i = 0; i < x.length; i++ ) {
-	v = beta( x[ i ] );
-	console.log( 'x: %d, f(x): %d', x[ i ], v );
+for ( var x = 0; x < 10; x++ ) {
+	for ( var y = 10; y > 0; y-- ) {
+		console.log( 'x: %d, \t y: %d, \t f(x,y): %d', x, y, beta( x, y ) );
+	}
 }
