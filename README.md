@@ -9,7 +9,7 @@ The [Beta function][beta-function], also called the Euler integral, is defined a
 
 <div class="equation" align="center" data-raw-text="
 	\operatorname{Beta}(x,y) = \int_0^1t^{x-1}(1-t)^{y-1}\,\mathrm{d}t" data-equation="eq:beta_function">
-	<img src="https://cdn.rawgit.com/compute-io/beta/dc1b91b2b17b768ee83b3c2f4a47f3f6d4c2f624/docs/img/eqn1.svg" alt="Equation for the beta function.">
+	<img src="https://cdn.rawgit.com/math-io/beta/9d5602c468c0b1b4317db9ade03642ce8edbce47/docs/img/eqn1.svg" alt="Equation for the beta function.">
 	<br>
 </div>
 
@@ -18,7 +18,7 @@ It is related to the [Gamma function][gamma-function] via the following equation
 <div class="equation" align="center" data-raw-text="
 \operatorname{Beta}(x,y)=\dfrac{\Gamma(x)\,\Gamma(y)}{\Gamma(x+y)} \!
 " data-equation="eq:beta_function2">
-	<img src="https://cdn.rawgit.com/compute-io/beta/dc1b91b2b17b768ee83b3c2f4a47f3f6d4c2f624/docs/img/eqn2.svg" alt="Beta function expressed in terms of the Gamma function.">
+	<img src="https://cdn.rawgit.com/math-io/beta/9d5602c468c0b1b4317db9ade03642ce8edbce47/docs/img/eqn2.svg" alt="Beta function expressed in terms of the Gamma function.">
 	<br>
 </div>
 
