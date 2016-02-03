@@ -2,8 +2,9 @@
 
 // MODULES //
 
-var betaOld = require( './naive.js' ).old,
-	beta = require( './../lib/index.js' );
+var betaOld = require( './naive.js' );
+var beta = require( './../lib/index.js' );
+
 
 // VARIABLES //
 
@@ -15,6 +16,7 @@ var stop;
 var x;
 var y;
 var out;
+
 
 // FIXTURES //
 
