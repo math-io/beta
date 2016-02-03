@@ -44,9 +44,12 @@
     "url": "https://github.com/math-io/beta/issues"
   },
   "dependencies": {
-    "math-betaln": "^1.0.0",
+    "const-e": "0.0.0",
+    "math-abs": "^1.0.2",
     "math-exp": "^1.0.0",
-    "math-gamma": "^1.0.0"
+    "math-gamma": "^1.0.0",
+    "math-power": "^1.0.0",
+    "math-sqrt": "^1.0.1"
   },
   "devDependencies": {
     "browserify": "12.x.x",
@@ -57,6 +60,7 @@
     "jshint": "2.x.x",
     "jshint-stylish": "2.x.x",
     "math-abs": "^1.0.2",
+    "math-betaln": "^1.0.0",
     "tap-spec": "4.x.x",
     "tape": "4.x.x",
     "testling": "1.x.x",
